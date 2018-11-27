@@ -1,3 +1,13 @@
+@font-face{
+    src: url(../css/font/Demo_ConeriaScript.ttf);
+    font-family: Coneria;
+}
+
+@font-face{
+    src: url(../css/font/Roboto-Light.ttf);
+    font-family: Roboto;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +51,8 @@ body {
 .northern-h1{
     text-align: center;
     padding: 20px;
-    font-family: Coneria Script Demo;
+    font-family: Coneria;
+    font-weight: 100;
 }
 
 .aboutme{
@@ -188,8 +199,8 @@ nav {
 #brand a {
     color: #000;
     transition: all 0.3s ease-out;
-    font-family: Coneria Script Demo;
-    font-weight: 300;
+    font-family: Coneria;
+    font-weight: 200;
 }
 
 nav #menu {
@@ -305,7 +316,7 @@ nav #menu li a {
     }
 
     #menu a {
-          font-family: Coneria Script Demo;
+          font-family: Coneria;
           font-weight: 200;
           font-size: 20px;
     }
